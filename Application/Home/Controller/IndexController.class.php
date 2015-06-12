@@ -60,7 +60,7 @@ class IndexController extends Controller {
 		$user->add($data);
 		$user->where('id=1')->save($data);
 		$user->where("id=$num")->delete();
-		$list = $user->where ( 'id = 1' )->limit ( 10 )->order ( 'id' )->select ();
+		$list = $user->where ( 'id = 2' )->limit ( 10 )->order ( 'id' )->select ();
 		dump ( $list, true, null, false );
 		$this->display ();
 	}
