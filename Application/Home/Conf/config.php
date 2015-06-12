@@ -7,8 +7,8 @@ return array(
 		'DB_TYPE'   => 'mysql', // 数据库类型
 		'DB_HOST'   => 'localhost', // 服务器地址
 		'DB_NAME'   => 'thinkphp', // 数据库名
-		'DB_USER'   => 'user', // 用户名
-		'DB_PWD'    => 'pwd', // 密码
+		'DB_USER'   => 'thinkphp', // 用户名
+		'DB_PWD'    => '106277', // 密码
 		'DB_PORT'   => 3306, // 端口
 		'DB_PREFIX' => '', // 数据库表前缀
 );
